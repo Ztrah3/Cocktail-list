@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/854/270/original/abstract-colorful-gradient-animation-background-free-video.jpg');
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25%;
+    margin-bottom: 10px;
+}
+
+select {
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    color: white;
+}
+
+.drink {
+    border: 3px solid purple;
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+}
+
+button:hover {
+    background-color: rgb(171, 123, 217);
+}
